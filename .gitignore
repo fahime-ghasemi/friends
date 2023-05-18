@@ -1,9 +1,15 @@
 *.apk
+*.aab
 output.json
 *.iml
 build/
 .gradle/
-.idea/
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
 .DS_Store
 captures/
 .externalNativeBuild
