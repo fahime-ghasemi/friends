@@ -7,14 +7,15 @@ import org.junit.Test
 
 class SignUpTest {
 
-  @Rule
-  private val rule = createAndroidComposeRule<MainActivity>()
+  @get:Rule
+  val rule = createAndroidComposeRule<MainActivity>()
+
   @Test
   fun performSignUp()
   {
     launchSignUpScreen(rule){
-      enterEmail("")
-      enterPassword("")
+      enterEmail("fahime.s.ghasemi@gmail.com")
+      enterPassword("11111")
       submit()
     }
   }
